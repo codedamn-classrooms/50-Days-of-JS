@@ -3,3 +3,5 @@ function randomNumberGeneratorInRange(rangeStart, rangeEnd) {
 
     return
 }
+
+module.exports = { randomNumberGeneratorInRange }
