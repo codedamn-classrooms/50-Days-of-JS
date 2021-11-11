@@ -6,4 +6,4 @@ function reverseGivenInteger(num) {
     return
 }
 
-module.exports = { reverseGivenInteger }
+console.log(`Reversed integer is: ${reverseGivenInteger(num)}`)
