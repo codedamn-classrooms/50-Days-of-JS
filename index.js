@@ -1,7 +1,7 @@
 function randomNumberGeneratorInRange(rangeStart, rangeEnd) {
-    // write your solution here
+	// write your solution here
 
-    return
+	return
 }
 
-module.exports = { randomNumberGeneratorInRange }
+console.log(`My random number: ${randomNumberGeneratorInRange(5, 100)}`)
