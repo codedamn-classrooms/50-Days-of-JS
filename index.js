@@ -6,4 +6,4 @@ function reverseAString(str) {
     return
 }
 
-module.exports = { reverseAString }
+console.log(`Reversed string is: ${reverseAString(str)}`)
