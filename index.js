@@ -6,4 +6,4 @@ function isEmpty(obj) {
     return
 }
 
-module.exports = { isEmpty }
+console.log(`is empty object: ${isEmpty(obj)}`)
