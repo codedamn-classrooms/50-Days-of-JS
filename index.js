@@ -7,4 +7,4 @@ function truncateWithWordLimit(str, wordLimit) {
     return
 }
 
-module.exports = { truncateWithWordLimit }
+console.log(`Truncated string: ${truncateWithWordLimit(str, wordLimit)}`)
