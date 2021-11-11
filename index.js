@@ -12,4 +12,4 @@ function removeArrayElement(filterField) {
     return
 }
 
-module.exports = { removeArrayElement }
+console.log(`filtered array: ${removeArrayElement(filterField)}`)
