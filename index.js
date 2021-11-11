@@ -6,4 +6,4 @@ function convertTo24HrsFormat(time) {
     return
 }
 
-module.exports = { convertTo24HrsFormat }
+console.log(`Converted time: ${convertTo24HrsFormat(time)}`)
