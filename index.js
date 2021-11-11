@@ -6,4 +6,4 @@ function getDaysBetweenDates(dateText1, dateText2) {
     return
 }
 
-module.exports = { getDaysBetweenDates }
+console.log(`Days difference: ${getDaysBetweenDates('10/15/2020', '12/1/2020')}`)
