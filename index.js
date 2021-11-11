@@ -6,4 +6,4 @@ function validateMobile(number) {
     return
 }
 
-module.exports = { validateMobile }
+console.log(`is a valid Indian mobile number: ${validateMobile(number)}`)
