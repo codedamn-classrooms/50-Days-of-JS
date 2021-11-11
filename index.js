@@ -6,4 +6,4 @@ function getTheGapX(str) {
     return
 }
 
-module.exports = { getTheGapX }
+console.log(`Gap between the X's: ${getTheGapX(str)}`)
