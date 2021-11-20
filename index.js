@@ -1,4 +1,4 @@
-function fibonacci() {
+function fibonacci(n) {
 	// write your solution here
 
 	return
