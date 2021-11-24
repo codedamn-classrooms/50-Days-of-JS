@@ -1,20 +1,12 @@
-const spaceAge = (seconds) => {
-	const yearsInAllPlanets = {
-		Mercury: 0,
-		Venus: 0,
-		Earth: 0,
-		Mars: 0,
-		Jupiter: 0,
-		Saturn: 0,
-		Uranus: 0,
-		Neptune: 0,
-	}
+/**
+ *
+ * @param {number[]} digits Array of valid digits of baseA
+ * @param {number} baseA base a
+ * @param {number} baseB base b in which digits are to be converted
+ * @returns {number[]} Array of valid digits of baseB
+ */
+const convertDigitsToAskedBase = (digits, baseA, baseB) => {
+	// Your code here
 
-	// Your solution starts here
-
-	// Your solution ends here
-
-	return yearsInAllPlanets
+	return
 }
-
-console.log(spaceAge(Math.round(Math.random() * 99999999)))
