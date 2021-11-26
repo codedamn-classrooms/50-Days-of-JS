@@ -1,4 +1,4 @@
-const isPangram = (input) => {
+function hey(message) {
 	// Code here
 
 	return
