@@ -1,11 +1,8 @@
 /**
  *
- * @param {number[]} digits Array of valid digits of baseA
- * @param {number} baseA base a
- * @param {number} baseB base b in which digits are to be converted
- * @returns {number[]} Array of valid digits of baseB
+ * @param {number[]} inputArray Array of numbers
  */
-const convertDigitsToAskedBase = (digits, baseA, baseB) => {
+const longestConsecutiveSequence = (inputArray) => {
 	// Your code here
 
 	return
