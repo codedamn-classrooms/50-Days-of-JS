@@ -11,4 +11,4 @@ const grainsOn = (input) => {
 }
 
 console.log(`Grains on 5th square: ${grainsOn(5)}`)
-console.log(`Total grains upto 5th square: ${totalGrains(5)}`)
+console.log(`Total grains on the Chess Board: ${totalGrains()}`)
