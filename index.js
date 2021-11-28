@@ -1,4 +1,4 @@
-const totalGrains = (input) => {
+const totalGrains = () => {
 	// Code here
 
 	return
