@@ -1,5 +1,5 @@
-const colorCode = (color) => {
-	// Code here
+const addTwoNumbers = (a, b) => {
+	// code here
 
 	return
 }
