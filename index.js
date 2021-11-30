@@ -1,14 +1,7 @@
-const totalGrains = () => {
-	// Code here
+const unionOfArrays = (arr1, arr2) => {
+  // code below here
 
-	return
-}
+  return;
+};
 
-const grainsOn = (input) => {
-	// Code here
-
-	return
-}
-
-console.log(`Grains on 5th square: ${grainsOn(5)}`)
-console.log(`Total grains upto 5th square: ${totalGrains(5)}`)
+console.log(`The union is ${unionOfArrays([1, 2, 34, 45, 3], [3, 24, 21])}`);
