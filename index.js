@@ -1,3 +1,3 @@
-function expandedForm(num) {
-  // Your code here
+function spinWords(string) {
+  //TODO Have fun :)
 }
