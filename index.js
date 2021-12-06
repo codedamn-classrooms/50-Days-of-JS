@@ -1,3 +1,4 @@
-function spinWords(string) {
-  //TODO Have fun :)
+function findOdd(arr) {
+  //happy coding!
+  return 0;
 }
