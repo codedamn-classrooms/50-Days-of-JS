@@ -1,4 +1,8 @@
-function findOdd(arr) {
-  //happy coding!
-  return 0;
+function getCount(str) {
+  let vowelsCount = 0;
+  // enter your magic here
+
+  return vowelsCount;
 }
+
+console.log(getCount("abracadabra"));
