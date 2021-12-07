@@ -15,29 +15,29 @@
 	<div class="text-black bg-gray-800 rounded-md inline-block p-4 m-auto mb-0 justify-center flex flex-col">
 		<section class="flex px-2 items-center justify-items-center">
 			<span class="bg-gray-700 p-2 flex flex-col rounded-md inline mx-3 items-center justify-items-center">
-				<input class="text-center rounded-sm p-1 text-lg font-bold" type="number" id="hours" name="hours"
-					min="0" max="24" value="0">
+				<input id="hours-input" class="text-center rounded-sm p-1 text-lg font-bold" type="number" id="hours"
+					name="hours" min="0" max="24" value="0">
 				<p class="text-gray-100">Hours</p>
 			</span>
 			<span class="bg-gray-700 p-2 flex flex-col rounded-md inline mx-3 items-center justify-items-center">
-				<input class="text-center rounded-sm p-1 text-lg font-bold" type="number" id="minutes" name="minutes"
-					min="0" max="60" value="0">
+				<input id="minutes-input" class="text-center rounded-sm p-1 text-lg font-bold" type="number"
+					id="minutes" name="minutes" min="0" max="60" value="0">
 				<p class="text-gray-100">Minutes</p>
 			</span>
 			<span class="bg-gray-700 p-2 flex flex-col rounded-md inline mx-3 items-center justify-items-center">
-				<input class="text-center rounded-sm p-1 text-lg font-bold" type="number" id="seconds" name="seconds"
-					min="0" max="60" value="0">
+				<input id="seconds-input" class="text-center rounded-sm p-1 text-lg font-bold" type="number"
+					id="seconds" name="seconds" min="0" max="60" value="0">
 				<p class="text-gray-100 text-">Seconds</p>
 			</span>
 		</section>
 		<section class="flex mx-auto mt-3">
-			<button
+			<button id="set-timer-btn"
 				class="text-white text-center mb-3 text-lg bg-blue-500 px-2 py-1 rounded-md m-1 hover:bg-blue-600 mt-4">Set
 				Timer</button>
-			<button
+			<button id="start-timer-btn"
 				class="text-white text-center mb-3 text-lg bg-green-500 px-2 py-1 rounded-md m-1 hover:bg-green-600 mt-4">Start
 				Timer</button>
-			<button
+			<button id="stop-timer-btn"
 				class="text-white text-center mb-3 text-lg bg-red-500 px-2 py-1 rounded-md m-1 hover:bg-red-600 mt-4">Stop
 				Timer</button>
 		</section>
@@ -46,15 +46,15 @@
 	<div
 		class="flex bg-clip-padding backdrop-filter backdrop-blur-xl rounded-md bg-gray-200 bg-opacity-25 mx-auto my-14 px-4 py-2">
 		<span class="bg-gray-100 rounded-md px-3 py-1 text-gray-900 mx-2 flex flex-col items-center">
-			<p class="text-9xl">00</p>
+			<p id="hours-counter" class="text-9xl">00</p>
 			<p class="text-2xl">Hours</p>
 		</span>
 		<span class="bg-gray-100 rounded-md px-3 py-1 text-gray-900 mx-2 flex flex-col items-center">
-			<p class="text-9xl">00</p>
+			<p id="minutes-counter" class="text-9xl">00</p>
 			<p class="text-2xl">Minutes</p>
 		</span>
 		<span class="bg-gray-100 rounded-md px-3 py-1 text-gray-900 mx-2 flex flex-col items-center">
-			<p class="text-9xl">00</p>
+			<p id="seconds-counter" class="text-9xl">00</p>
 			<p class="text-2xl">Seconds</p>
 		</span>
 	</div>
