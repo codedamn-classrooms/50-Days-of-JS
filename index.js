@@ -1,3 +1,3 @@
-function spinWords(string) {
-  //TODO Have fun :)
+function accum(s) {
+  // your code goes below
 }
