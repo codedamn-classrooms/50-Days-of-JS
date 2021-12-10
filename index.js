@@ -1,3 +1,5 @@
-function accum(s) {
-  // your code goes below
+function wave(str) {
+  // Your Code goes below
 }
+
+console.log(wave("hello"));
