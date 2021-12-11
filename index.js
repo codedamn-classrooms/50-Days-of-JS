@@ -17,4 +17,7 @@ const obj = {
 	},
 };
 
-console.log(`Result: ${deepFilter(obj, (s) => typeof s === "string")}`)
+//filter's in-place
+deepFilter(obj, (s) => typeof s === "string")
+
+console.log(`Result: ${obj}`)
