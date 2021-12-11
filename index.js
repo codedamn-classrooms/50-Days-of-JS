@@ -1,6 +1,20 @@
-const sayNumberInEnglish = (n /* ADD MORE PARAMETERS IF NEEDED */) => {
+const deepFilter = (obj, filter) => {
 	// Write your solution here
 	return
 }
 
-console.log(`5635 in english is: ${sayNumberInEnglish(5635)}`)
+const obj = {
+	a: 1,
+	b: {
+		c: "Hello World",
+		d: 2,
+		e: {
+			f: {
+				g: -4,
+			},
+		},
+		h: "Good Night Moon",
+	},
+};
+
+console.log(`Result: ${deepFilter(obj, (s) => typeof s === "string")}`)
