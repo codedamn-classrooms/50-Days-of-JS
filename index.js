@@ -1,8 +1,9 @@
-function mostFreq(arr) {
+function nthlargest(arr, highest) {
 	// write your code here
 	return
 }
 
-const arr = [1, 2, 2, 4, 5, 6, 6];
+const arr = [43, 56, 23, 89, 88, 90, 99, 652];
+const highest = 4;
 
-console.log(mostFreq(arr));
+console.log(nthlargest(arr, highest));
