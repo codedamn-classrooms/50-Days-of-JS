@@ -1,9 +1,8 @@
-function gcd(a, b) {
+function set(arrOfNum) {
 	// write your code here
 	return
 }
 
-const a = 2154
-const b = 458
+const arrOfNum = [1, 2, 2, 4, 5, 6, 6];
 
-console.log("The GCD of " + a + " ", b + " is " + gcd(a, b));
+console.log("result is + " + set(arrOfNum));
