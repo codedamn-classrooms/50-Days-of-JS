@@ -1,4 +1,4 @@
-const addTwoNumbers = (a, b) => {
+const transcription = (dna) => {
 	// code here
 
 	return
