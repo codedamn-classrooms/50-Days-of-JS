@@ -1,4 +1,4 @@
-const transcription = (dna) => {
+const isLeap = (year) => {
 	// code here
 
 	return
