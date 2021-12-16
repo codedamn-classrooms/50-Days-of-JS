@@ -1,4 +1,4 @@
-const countWords = (phrase) => {
+const valid = (string) => {
 	// code here
 
 	return
