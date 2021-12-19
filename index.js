@@ -4,7 +4,7 @@ const timeToMixJuice = (name) => {
 	return
 }
 
-const timeToMixJuice = (wedgesNeeded, limes) => {
+const limesToCut = (wedgesNeeded, limes) => {
 	// code here
 
 	return
