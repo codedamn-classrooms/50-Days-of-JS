@@ -1,16 +1,16 @@
-const timeToMixJuice = (name) => {
+const needsLicense = (kind) => {
 	// code here
 
 	return
 }
 
-const limesToCut = (wedgesNeeded, limes) => {
+const chooseVehicle = (option1, option2) => {
 	// code here
 
 	return
 }
 
-const remainingOrders = (timeLeft, orders) => {
+const calculateResellPrice = (originalPrice, age) => {
 	// code here
 
 	return
