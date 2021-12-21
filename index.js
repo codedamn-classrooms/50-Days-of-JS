@@ -1,5 +1,12 @@
-function wave(str) {
-  // Your Code goes below
+function openOrSenior(data) {
+  // your code goes below
 }
 
-console.log(wave("hello"));
+let output = openOrSenior([
+  [45, 12],
+  [55, 21],
+  [19, -2],
+  [104, 20],
+]);
+
+console.log(output);
