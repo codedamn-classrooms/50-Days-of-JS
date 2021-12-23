@@ -1,3 +1,3 @@
-function getDivisorsCnt(num) {
-  // code below
+function findOutlier(integers) {
+  //your code here
 }
