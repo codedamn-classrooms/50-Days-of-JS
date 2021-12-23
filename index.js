@@ -1,3 +1,3 @@
-function high(x) {
-  //code your magic here
+function getDivisorsCnt(num) {
+  // code below
 }
