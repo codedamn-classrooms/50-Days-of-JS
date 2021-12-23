@@ -1,3 +1,3 @@
-function findOutlier(integers) {
-  //your code here
+function findNeedle(haystack) {
+  // your code here
 }
