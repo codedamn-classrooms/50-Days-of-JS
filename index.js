@@ -1,3 +1,3 @@
-function findNeedle(haystack) {
+function isIsogram(str) {
   // your code here
 }
