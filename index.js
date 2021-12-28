@@ -1,3 +1,3 @@
-function isIsogram(str) {
+function formatDuration(seconds) {
   // your code here
 }
