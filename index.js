@@ -1,3 +1,3 @@
-function isTriangle(a, b, c) {
+function getMiddle(s) {
   // your code here
 }
