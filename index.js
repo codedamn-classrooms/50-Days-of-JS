@@ -1,9 +1,8 @@
-const time = '12:10AM';
-
 function convertTo24HrsFormat(time) {
-    // write your solution here
+	// write your solution here
 
-    return
+	return;
 }
 
-console.log(`Converted time: ${convertTo24HrsFormat(time)}`)
+console.log(`Converted time: ${convertTo24HrsFormat("1:45PM")}`); // Output should be '13:45'
+console.log(`Converted time: ${convertTo24HrsFormat("03:45PM")}`); // Output should be '15:45'
